@@ -4,6 +4,7 @@ from __future__ import annotations
 from app.services import get_sp_today_usd_rates
 
 import asyncio
+from app.errors import errors_router
 import logging
 import hashlib
 import itertools
@@ -282,6 +283,7 @@ async def main() -> None:
         dispatcher.message.middleware(activity_guard)
         dispatcher.callback_query.middleware(activity_guard)
         dispatcher.include_router(router)
+        dispatcher.include_router(errors_router)
 
         await bot.delete_webhook(drop_pending_updates=False)
 
