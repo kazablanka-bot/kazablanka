@@ -9,6 +9,7 @@ import hashlib
 import itertools
 import sys
 import contextvars
+from app.errors import errors_router
 import html
 
 from aiogram.exceptions import TelegramRetryAfter
