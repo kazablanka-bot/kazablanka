@@ -1,0 +1,26 @@
+{
+  "SYP_TO_USD": {
+    "barcode": "assets/barcodes/syp_to_usd.png",
+    "payment_address": "ff1b8054a07c81987f7c139089a918ec"
+  },
+  "USD_TO_SYP": {
+    "barcode": "assets/barcodes/usd_to_syp.png",
+    "payment_address": "ff1b8054a07c81987f7c139089a918ec"
+  },
+  "SYP_TO_USDT": {
+    "barcode": "assets/barcodes/syp_to_usdt.png",
+    "payment_address": "ff1b8054a07c81987f7c139089a918ec"
+  },
+  "USD_TO_USDT": {
+    "barcode": "assets/barcodes/usd_to_usdt.png",
+    "payment_address": "ff1b8054a07c81987f7c139089a918ec"
+  },
+  "USDT_TO_SYP": {
+    "barcode": "assets/barcodes/usdt_to_syp.png",
+    "payment_address": "0x4DAb4408eC04573442DA801f566854497c486513"
+  },
+  "USDT_TO_USD": {
+    "barcode": "assets/barcodes/usdt_to_usd.png",
+    "payment_address": "0x4DAb4408eC04573442DA801f566854497c486513"
+  }
+}
